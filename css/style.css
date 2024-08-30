@@ -1,0 +1,451 @@
+body {
+    background-color: #FDF9F6;
+    font-family: "Frank Ruhl Libre", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Estilo da barra de navegação */
+#navegacaoHeader {
+    height: auto;
+    background-color: #656259;
+    font-weight: bold;
+}
+
+#navegacaoHeader a {
+    color: #FFF;
+}
+
+#navegacaoHeader a:hover {
+    color: #000000;
+}
+
+#navbarNavAltMarkup a {
+    font-weight: 600;
+}
+
+/* Section 1 */
+.section1 {
+    height: 600px;
+    margin-top: 56px;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centraliza verticalmente */
+    align-items: center;
+    /* Centraliza horizontalmente */
+    text-align: center;
+    /* Centraliza o texto dentro da section */
+}
+
+#descricao {
+    width: 80%;
+    height: 80%;
+    backdrop-filter: blur(40px);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.tituloSection {
+    color: #ffffff;
+    font-size: 3.2em;
+    font-weight: bold;
+}
+
+.textoSection {
+    color: #ffffff;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1em;
+    line-height: 30px;
+}
+
+.botaoCompra {
+    display: inline-block;
+    width: 200px;
+    margin: 5px auto;
+    padding: 10px 20px;
+    background-color: #656259;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px;
+}
+
+.botaoCompra:hover {
+    background-color: #FFF;
+    color: #656259;
+}
+
+/* Section 2 */
+
+.section2 {
+    height: 600px;
+}
+
+
+.titulo {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 3em;
+    color: #656259;
+}
+
+.imagemSection {
+    background-image: url("../img/foto1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.conteudoSection2 {
+    height: 400px;
+    width: 100%;
+}
+
+.textoSection2 {
+    padding: 20px;
+}
+
+.textoSection2 h3 {
+    text-align: center;
+
+}
+
+.textoSection2 p {
+    font-weight: bold;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.1em;
+
+}
+
+/* Avaliações*/
+.avaliacoes {
+    height: 800px;
+    display: flex;
+}
+
+.tituloAvaliacao {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 3em;
+    color: #656259;
+
+}
+
+.avaliacoesClientes {
+    justify-content: space-between;
+}
+
+
+
+
+/* Section 3 */
+
+.section3 {
+    height: 500px;
+}
+
+
+.titulo2 {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 3em;
+    color: #FFF;
+}
+
+.conteudoSection3 {
+    height: 10px;
+    width: 100%;
+}
+
+
+.textoSection2 {
+    padding: 20px;
+}
+
+
+.textoSection3 p {
+    font-weight: bold;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #FFF;
+
+}
+
+.section3 h2 {
+    color: #FFF;
+}
+
+.section3 a {
+    list-style-type: none;
+    color: white;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.section3 a:hover {
+    color: #000000;
+}
+
+.card{
+    border: 1px solid red;
+    height: 38rem;
+}
+
+@media (max-width: 575.98px) {
+
+    .section1 {
+        height: 600px;
+        width: 100%;
+        padding-top: 10px;
+
+    }
+
+    #descricao {
+        width: 80%;
+        height: 90%;
+        backdrop-filter: blur(40px);
+        border-radius: 8px;
+        padding: 20px;
+    }
+
+    .tituloSection {
+        color: #ffffff;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .textoSection {
+        color: #ffffff;
+        font-weight: 400;
+        text-align: left;
+        font-size: 0.9em;
+        line-height: 30px;
+    }
+
+    /*Quem somos*/
+    .textoSection3 p {
+        font-size: 0.9em;
+        color: #FFF;
+
+    }
+
+    .section3 h2 {
+        color: #FFF;
+    }
+
+    .section3 a {
+        list-style-type: none;
+        color: white;
+        width: 150px;
+        margin-right: 10px;
+    }
+
+    .section3 a:hover {
+        color: #000000;
+    }
+
+    .titulo2 {
+        padding-top: 30px;
+        font-size: 2em;
+    }
+
+    .section3 {
+        height: 600px;
+    }
+
+    /* Avaliações*/
+    .avaliacoes {
+        height: auto;
+        display: flex;
+    }
+
+    .card{
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media (max-width: 767.98px) {
+
+    .section1 {
+        height: 600px;
+        width: 100%;
+        padding-top: 10px;
+
+    }
+
+    #descricao {
+        width: 80%;
+        height: 90%;
+        backdrop-filter: blur(40px);
+        border-radius: 8px;
+        padding: 20px;
+    }
+
+    .tituloSection {
+        color: #ffffff;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .textoSection {
+        color: #ffffff;
+        font-weight: 400;
+        text-align: left;
+        font-size: 0.9em;
+        line-height: 30px;
+    }
+
+    /*Quem somos*/
+    .textoSection3 p {
+        font-size: 0.9em;
+        color: #FFF;
+
+    }
+
+    .section3 h2 {
+        color: #FFF;
+    }
+
+    .section3 a {
+        list-style-type: none;
+        color: white;
+        width: 150px;
+        margin-right: 10px;
+    }
+
+    .section3 a:hover {
+        color: #000000;
+    }
+
+    .titulo2 {
+        padding-top: 30px;
+        font-size: 2em;
+    }
+
+    .section3 {
+        height: 600px;
+    }
+
+    /* Avaliações*/
+    .avaliacoes {
+        height: auto;
+        display: flex;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .section1 {
+        height: 600px;
+        width: 100%;
+    }
+
+    #descricao {
+        width: 80%;
+        height: 90%;
+        backdrop-filter: blur(40px);
+        border-radius: 8px;
+        padding: 20px;
+        margin-top: -100px;
+    }
+
+    .tituloSection {
+        color: #ffffff;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .textoSection {
+        color: #ffffff;
+        font-weight: 400;
+        text-align: left;
+        font-size: 1.1em;
+        line-height: 30px;
+    }
+
+    /*Quem somos*/
+    .textoSection3 p {
+        font-size: 0.9em;
+        color: #FFF;
+
+    }
+
+    .section3 h2 {
+        color: #FFF;
+    }
+
+    .section3 a {
+        list-style-type: none;
+        color: white;
+        width: 150px;
+        margin-right: 10px;
+    }
+
+    .section3 a:hover {
+        color: #000000;
+    }
+
+    .titulo2 {
+        padding-top: 30px;
+        font-size: 2em;
+    }
+
+    .section3 {
+        height: 600px;
+    }
+
+    /* Avaliações*/
+    .avaliacoes {
+        height: auto;
+        display: flex;
+    }
+
+    /*Seção 2*/
+
+    .section2 {
+        height: 1000px;
+    }
+
+    .titulo {
+        text-align: center;
+        margin-top: 30px;
+        font-weight: bold;
+        font-size: 2em;
+        color: #656259;
+    }
+    
+    .imagemSection {
+        background-image: url("../img/foto1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+
+   
+}
+
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 1399.98px) {}
